@@ -1,0 +1,123 @@
+1 ] HTML:
+
+            Html stands for hyper text markup language 
+            It is used to structure or organize a content in web page using tags 
+            Tags like  <p>,<h1>-<h6><img><audio>…etc
+
+            It is called markup language because it uses tags or symbol to structure content in web page
+
+
+2 ] Difference b/w  HTML AND HTML 5
+   
+HTML:
+           It is older version
+           Limited multimedia
+           No semantic tags
+           Short meta tags
+           Limited input types
+           Less API support
+           There is no section and  local storage
+  
+HTML  5:
+          It is new version of html
+          More multimedia
+          Can use semantic tags
+          More meta tags
+          New different input types
+          Modern API support
+          There will be section and  local storage
+
+
+3] <!DOCTYPE html> in HTML:
+                   
+           <!DOCTYPE html> it is a deceleration that is used to tell browser that this html file is written in latest version of html 5
+
+4] Difference b/w Tag and Elements:
+
+         It act as instructor that tell browser how to display a content
+         Tags is a key word used inside the angle bracket
+
+         Example:
+
+               •<p>
+
+   Elements: 
+
+          It is a complete structure and contain opening tag content and closing tag 
+          
+              Example:
+                    •<p>content</p>
+
+5] semantic tags:
+               
+                 It clearly describe the meaning between the browser and the developer 
+         Example:
+                  •<header>
+                  •<nav>
+                  •<main>
+                  •<section>
+                  •<footer>
+6]Difference b/w semantic and non semantic tags:
+
+Semantic tags:
+          It clearly describe the meaning the meaning  of the content
+          Easy for developers and  browser to understand
+              Example:
+                      •<header>
+                      •<Main>
+                      •<Section>
+Non semantic tags:
+                 It is not clearly described 
+                 Used mainly for grouping and styling
+                             Example:
+                                    •<div>
+                                    •<span>
+ 
+7]Meta tags:
+           It provide information about the web page to browser it is used in inside the head tag
+           
+           It is used for search engine optimization , and it create responsive web page
+
+
+8]<sources> tag :
+                  It is used to attach multimedia file in audio and video  it helps browser to choose supported file  format
+
+
+9] I frame:
+            It is used to embed another web page inside a web page
+Real time example:
+                   You tube video embed
+                   Google map embed
+
+
+
+
+10] Difference b/w block level and inline level:
+
+Block level:
+
+            It always start with new line
+            Take full width of the screen
+            Contain inline element
+Example:
+                •<div>
+                •<p>
+Inline level:
+
+            Does not start with new line
+            Does not take full width
+            Contain text only
+Example:
+             •<a>
+             •<span>
+
+
+
+
+
+
+     
+          
+          
+                                               
+
