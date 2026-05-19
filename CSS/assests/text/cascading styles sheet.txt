@@ -1,0 +1,160 @@
+cascading styles sheet:
+
+inline syntax:
+
+1.<div style="property1: value;property2: value;property3: value;"> 
+
+2.<h1 style="property1: value;property2: value;property3: value;">
+
+3.<h2 style="property1: value;property2: value;property3: value;">
+
+4.<h3 style="property1: value;property2: value;property3: value;">
+
+5.<h4 style="property1: value;property2: value;property3: value;">
+
+6.<h5 style="property1: value;property2: value:property3: value;">
+
+7.<h6 style="property1: value;property2: value;property3: value;">
+
+8.<p style="property1: value;property2: value;property3: value;">
+
+9.<span style="propety1: value;property2: value;property3: value;">
+
+10.<button style="property1: value;property2: value;property3: value;">
+
+11.<div style="property1: value;property2: value;property3: value;>
+
+12.<h1 style="property1: value;property2: value;property3: value;">
+
+13.<h2 style="property1: value;property2: value;property3: value;">
+
+14.<h3 style="property1: value;property2: value;property3: value;">
+
+15.<h4 style="property1: value;property2: value;property3: value;">
+
+16.<h5 style="property1: value;property2: value;property3: value;">
+
+17.<h6 style="property1: value;property2: value;property3: value;">
+
+18.<p style="property1: value;property2: value;property3: value;">
+
+19.<span style="property1: valueproperty2: value;property3: value;>
+
+20.<button style="property1: value;property2: value;property3: value;">
+
+
+External CSS:
+
+1.selector{
+  property: value;
+  property: value;
+  property: value;
+}
+
+2.selector{
+  property: value;
+  property: value;
+  property: value;
+}
+
+3.selector{
+  property: value;
+  property: value;
+  property: value;
+}
+
+4.selector{
+  property: value;
+  property: value;
+  property: value;
+}
+
+5.selector{
+  property: value;
+  property: value;
+  property: value;
+}
+
+6.selector{
+  property: value; 
+  property: value;
+  property: value;
+}
+
+7.selector{
+  property: value;
+  property: value;
+  property: value;
+}
+
+8.selector{
+  property: value;
+  property: value;
+  property: value;
+}
+
+9.selector{
+  property: value;
+  property: value;
+  property: value;
+}
+
+10.selector{
+  property: value;
+  property: value;
+  property: value;
+
+}
+
+11.selector{
+  property: value;
+  property: value; 
+  property: value;
+}
+
+12.
+selector{
+  property: value;
+  property: value;
+  property: value;
+}
+
+13.selector{
+  property: value;
+  property: value;
+  property: value;
+}
+
+14.selector{
+  property: value;
+  property: value;
+  property: value;
+}
+
+15.selector{
+  property: value;
+  property: value;
+  property: value;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
