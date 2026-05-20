@@ -1,0 +1,20 @@
+.Studios{
+    background-color: aqua;color:rgb(50, 168, 223);
+}
+
+
+h1{
+    background-color: rgb(189, 175, 155);
+    color: rgb(230, 227, 228);
+}
+.heros{
+    background-color: hotpink;
+    color:black;
+}
+.Villains{
+    background-color: yellow;
+    color: red;
+}
+*{
+    background-color: tomato;
+}
