@@ -1,0 +1,97 @@
+  *{
+            padding: opx;
+            margin: opx;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .parent{
+            background-color: rgb(243, 240, 240);
+            color: rgb(22, 22, 22);
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 50px;
+            padding-right: 100px;
+        }
+        .icon{
+            display: flex;
+            gap: 20px;
+
+        }
+        .ican{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .ican a{
+            text-decoration: none;
+            color: black;
+        }
+        .input{
+            width: 600px;
+            height: 50px;
+           border-radius: 50px;
+           border: none;
+        }
+        .second{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 50px;
+            padding-right: 100px;
+
+        }
+
+        .secondone{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 20px;
+        }
+        .secondtwo a{
+            text-decoration: none;
+        }
+        .offer{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .items img{
+             width: 140px;
+            height: 150px;
+
+        }
+        .items{
+           
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            padding-left: 30px;
+            padding-right: 80px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .textimg{
+           background-color: rgb(146, 172, 196);
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+        }
+        .img2{
+          
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           margin-right: 100px;
+           margin-left: 70px;
+         
+           
+        }
+        .img2 img{
+            width: 580px;
+            
+        }
+   

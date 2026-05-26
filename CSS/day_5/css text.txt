@@ -1,0 +1,116 @@
+What is CSS and why is it used?
+
+-CSS stand for cascading styles sheet
+-it is used to design your web page by using layout and styles CSS is helping for making a web page looking good and user friendly design
+-layout-it decide which content should be display in which place
+-style-coloring, shaping ,typography 
+
+What are the three types of CSS
+
+-inline CSS 
+-internal CSS
+-external CSS
+
+What is the difference between Inline CSS, Internal CSS, and External CSS?
+
+                      Inline CSS                            Internal CSS                                      External CSS
+
+        *design a specific element using style         *adding CSS style directly inside the         *adding style in separate CSS file connected
+         attribute                                      same html document using style tag            html document through link tag
+                                                        inside the head
+       
+        *syntax                                        *syntax                                       *syntax
+            <h1 style="">content</h2>                      selector{                                      selector{
+                                                                 property: value                                property: value;               
+                                                             }                                             }
+
+
+Which CSS type has highest priority?
+
+Priority order:
+
+Inline CSS (Highest)
+Internal CSS
+External CSS
+
+But !important can override normal priority
+
+
+
+Which CSS method is mostly used in real-time projects?
+
+External CSS is mostly used because it is easy to maintain ,and better performance and code can be easily reusable
+
+What are CSS selectors?
+ 
+-universal
+-element
+-class
+-id
+-group
+-descendant
+-attributes
+
+What is the difference between class selector and ID selector?
+
+*class selector:
+    -can be used multiple time
+    -less priority compared to id
+*id selector:
+    -can be used only one time
+    -more priority compared to class
+
+What is the purpose of universal selector in CSS?
+
+The purpose of the universal selector in CSS is to select and apply styles to all elements within a web page 
+
+
+What is cascading in CSS?
+
+-multiple styles can apply to same element and browser decide which style should display
+
+What is specificity in CSS?
+
+it is a priority calculator system used by browser which CSS rule should apply when multiple styles added on same element
+                            -inline =first priority 1000 points
+                            -id -100 points
+                            -class and attributes -10 points
+                            -element-1 point
+                            -universal below 1 point
+
+What is the difference between block and inline elements
+
+block element:
+
+starts with new line
+occupy full width of the screen
+can set width and height
+
+inline element:
+
+does not starts with new line
+occupy the width of the text
+can't set height and width
+
+
+What is Flexbox and why is it used?
+
+Flexbox (Flexible Box Layout) is a CSS layout module designed to arrange items in a single dimension (as a row or column)
+
+What is the difference between justify-content and align-items?
+
+-justify-content aligns items along the main axis (horizontal by default)
+-align-items aligns items along the cross axis (vertical by default
+
+What is the difference between px, em, rem, and percentage units?
+
+px	Fixed size
+em	Relative to parent font-size
+rem	Relative to root (html) font-size
+%	Relative to parent size
+
+What is the difference between RGB, RGBA, and HEX color values in CSS?
+
+RGB	Red, Green, Blue
+RGBA	RGB + transparency
+HEX	Hexadecimal color code
