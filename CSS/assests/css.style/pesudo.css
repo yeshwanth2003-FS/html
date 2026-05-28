@@ -15,31 +15,66 @@ body{
 .parent{
     background-color: black;
     color: antiquewhite;
-    padding: 50px;
-    height: 50pv;
+   padding: 50px;
+    color: black;
+    display: flex;
+   
+    gap: 20px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
    
    
     
 }
 .child{
-    background-color: antiquewhite;
-    color: black;
+    background-color: rgb(243, 243, 243);
     padding: 10px;
     transition: 2s ease;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
 }
 .child:hover{
      transform: scale(1.2);
 }
-.child button{
- width: 100px;
- height: 50px;
- border: none;
-}
 
-.child :active{
-    background-color: aqua;
-}
+.child img{
+    width: 200px;
+    height: 200px;
+} 
+.child2{
+    background-color: rgb(233, 229, 229);
+    color: rgb(23, 23, 24);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transition: 2s ease;
+border-radius: 20px;
 
+
+
+    
+}
+.child2:hover{
+     transform: scale(1.2);
+}
+.child2 img{
+   border-radius: 100px;
+    height: 250px;
+    width: 250px;
+}
+.parent2{
+    background-color: rgb(7, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: antiquewhite;
+  height: 1000px;
+  padding-bottom: 800px;
+ 
+}

@@ -1,136 +1,88 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 html{
     scroll-behavior: smooth;
-
 }
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
-.nav{
-    background-color: rgba(1, 1, 22, 0.973);
-    color: antiquewhite;
-    height: 110px;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-   
-    
+.parent1{
+background-color: rgba(128, 128, 128, 0.255);
+ 
 }
-.nav1{
-    border: 1px dotted white;
-    background-color:   rgba(0, 0, 20, 0.89);
-    color: antiquewhite;
-    width: 120px;
-    height: 25px;
-    border-radius: 10px;
-    margin-left: 30px;
-
-
-}
-.nav2{
-    border: 1px dotted white;
-    background-color: rgba(0, 0, 20, 0.89);
-    color: antiquewhite;
-    border-radius: 20px;
-    margin-right: 30px;
-    padding: 5px;
-   
-}
-.nav3{
-    border: 10px white;
-      background-color:rgba(0, 0, 20, 0.89) ;
-      color: antiquewhite;
-      padding: 10px;
-     
-}
-.nav4{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-   
-}
-.navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .parent{
-    background-color: bisque;
-    color: black;
-    height: 100hv; 
-    padding: 30px;    
-}
-.thumbnail{
-    background-color: black;
-    color: antiquewhite;
-    padding-left: 180px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-   
+    background-color:white;
+    padding: 20px;
+    margin: 50px;
+   border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .child{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(185, 34, 34);
-    border-radius: 30px;
-   
+    padding: 20px;
 }
-.child2{
+.name{
+    padding: 20px;
+}
+.button1{
+    border: none;
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 10px;
+}
+.button2{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+.parent2{
+    padding: 20px;
+    background-color: rgb(8, 8, 56);
+    color: white;
+
+}
+.select{
+    padding: 20px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     
 }
-.child img{
-    height: 300px;
-    width: 300px;
-    
-   
-} 
-.child3{
-    display: flex;
-    flex-direction: column;
+.select select{
+     background-color: rgb(8, 8, 56);
+     color: white;
 }
-
-  
-
-
-
+.menu a{
+   
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+   position:relative;
+}
+.course{
+    padding: 30px;
+   margin: 50px;
+   background-color: white;
+   border-radius: 20px;
+   
+}
+.trainer{
+    padding: 20px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 20px;
+    gap: 30px;
+}
+.logo{
+    padding: 20px;
+    display: flex;
+    gap: 60px;
+}
+.trainer a{
+    text-decoration: none;
+    
+}
