@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.parent{
+    background-color: black;
+    color: antiquewhite;
+    padding: 50px;
+    height: 50pv;
+   
+   
+    
+}
+.child{
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px;
+    transition: 2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child:hover{
+     transform: scale(1.2);
+}
+.child button{
+ width: 100px;
+ height: 50px;
+ border: none;
+}
+
+.child :active{
+    background-color: aqua;
+}
+
