@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.parent{
+    background-color: black;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;  
+   text-align: center;
+   transition: all 0.5s ease-in-out;
+   
+
+}
+.child{
+    margin-left: 80px;
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  
+}
+.child:hover{
+      transform:scale(1.05);
+}
