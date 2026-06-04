@@ -1,0 +1,38 @@
+.box{ width:100vw; 
+     height:100px;
+     display: flex; 
+     justify-content:center; 
+    align-items:center; }
+
+.flexbox{
+    display:flex; 
+    flex-direction:row;
+}
+.gridbox{
+    display:grid; 
+    grid-template-columns:repeat(3,1fr);
+}
+
+
+.card{
+    position: relative;
+}
+.badge{ 
+    position:absolute;
+     top:0; 
+     right:0; }
+
+@media(max-width:768px)
+{ .card
+    {  width:100%; 
+    }
+ }
+
+ .row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    background-color:blue
+    
+}
