@@ -6,18 +6,18 @@
     <title>dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class=" bg-gray-100">
+<body class=" bg-gray-100" style="font-family: 'Times New Roman', Times, serif;">
     <div class="flex">
         <!--sidebar-->
         <div class="w-64 h-screen text-white  bg-slate-800  ">
             <h2 class="text-2xl font-semibold p-5">Admin panel</h2>
             
              <ul class="space-y-4 mt-4 text-lg p-5 ">
-                <li class="hover:bg-yellow-500 translate-x-2 p-3 rounded-lg transition duration-300 ease-in cursor-pointer">Dashboard</li>
-                <li class="hover:bg-yellow-500 translate-x-2 p-3 rounded-lg transition duration-300 ease-in cursor-pointer">users</li>
-                <li class="hover:bg-yellow-500 translate-x-2 p-3 rounded-lg transition duration-300 ease-in cursor-pointer">courses</li>
-                <li class="hover:bg-yellow-500 translate-x-2 p-3 rounded-lg transition duration-300 ease-in cursor-pointer">reports</li>
-                <li class="hover:bg-yellow-500 translate-x-2 p-3 rounded-lg transition duration-300 ease-in cursor-pointer">settings</li>
+                <li class="hover:translate-x-2 p-3 rounded-lg transition duration-300 ease-in cursor-pointer">Dashboard</li>
+                <li class="hover:translate-x-2 p-3 rounded-lg transition duration-300 ease-in cursor-pointer">users</li>
+                <li class="hover:translate-x-2 p-3 rounded-lg transition duration-300 ease-in cursor-pointer">courses</li>
+                <li class="hover:translate-x-2 p-3 rounded-lg transition duration-300 ease-in cursor-pointer">reports</li>
+                <li class="hover:translate-x-2 p-3 rounded-lg transition duration-300 ease-in cursor-pointer">settings</li>
              </ul>
             
         </div>
@@ -25,7 +25,7 @@
         <!--statistics cards-->
         <div class="flex-col p-6 w-full ">
             
-             <h1 class="mb-4 text-3xl font-semibold">Dashboard Overview:</h1>
+             <h1 class="mb-6 text-3xl font-semibold">Dashboard Overview</h1>
 
              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                <div class="bg-white p-6 space-y-4 text-center rounded-lg shadow-lg " >
@@ -46,40 +46,38 @@
               </div>
             </div>
         
-
         <!--reporttabel-->
-            <div class="">    
-                <h2>recent user</h2>
-                <table>
-                   <thead>
+            <div class="mt-6 ">    
+                <h2 class="text-3xl font-semibold">Recent user</h2>
+                <table class="mt-4 w-full text-center border border-black">
+                   <thead  class=" bg-slate-800 text-white font-semibold">
                       <tr>
-                        <th>S.NO</th>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Status</th>
+                        <th class="border border-black p-3">S.NO</th>
+                        <th class="border border-black p-3">Name</th>
+                        <th class="border border-black p-3">Email</th>
+                        <th class="border border-black p-3">Status</th>
                       </tr>
                    </thead>
                    <tbody>
                        <tr>
-                          <td>1</td>
-                          <td>ramesh</td>
-                          <td>ramesh@gmail.com</td>
-                          <td>Active</td>
+                          <td class="border border-black p-3">1</td>
+                          <td class="border border-black p-3">ramesh</td>
+                          <td class="border border-black p-3">ramesh@gmail.com</td>
+                          <td class="border border-black p-3">Active</td>
 
                        </tr>
                         <tr>
-                          <td>2</td>
-                          <td>ramya</td>
-                          <td>ramya@gmail.com</td>
-                          <td>Active</td>
+                          <td class="border border-black p-3">2</td>
+                          <td class="border border-black p-3">ramya</td>
+                          <td class="border border-black p-3">ramya@gmail.com</td>
+                          <td class="border border-black p-3">Active</td>
                           
                        </tr>
                         <tr>
-                          <td>3</td>
-                          <td>gokul</td>
-                          <td>gokul@gmail.com</td>
-                          <td>Active</td>
-                          
+                          <td class="border border-black p-3">3</td>
+                          <td class="border border-black p-3">gokul</td>
+                          <td class="border border-black p-3">gokul@gmail.com</td>
+                          <td class="border border-black p-3">Active</td>                          
                        </tr>
                    </tbody>
                 </table>
