@@ -25,10 +25,10 @@ console.log(typeof totalStudents,"total student",totalStudents);
 let  totalfloor=4;
 console.log(typeof totalfloor,"totalfloor=", totalfloor);
 
-let smokingallowed="";
+let smokingallowed=false;
 console.log(typeof smokingallowed,"smokingallowed=",smokingallowed);
 
-co
+
 
 
 
