@@ -11,12 +11,121 @@ for (i=0;i<heros.length;i++){
     
 //task2
 
-let movie_collection=[200,500,800,400,600]
+let movie_collection = [200, 500, 800, 400, 600];
 
-for (i=0;i<movie_collection.length;i++){
-    
-    if(i)
+let highest = movie_collection[0];
+
+for (let i = 0; i < movie_collection.length; i++) {
+
+    if (movie_collection[i] > highest) {
+
+        highest = movie_collection[i];
+
+    }
+
 }
+
+console.log("Highest Collection =", highest);
+
+//task3
+
+let movie_collections=[200,500,800,400,600];
+
+let lowest=movie_collections[0];
+
+for(let i=0;i<movie_collections.length;i++){
+
+   movie_collections[i];
+
+   if (movie_collections[i]< lowest){
+
+      lowest=movie_collections[i];
+   }
+}
+
+console.log("lowest value=",lowest);
+
+
+// task4
+
+let mc=[200,500,800,400,600]
+
+let totalcollection=mc[0];
+
+for(let a=1;a<mc.length;a++){
+     
+         totalcollection=totalcollection+mc[a]
+          
+}
+
+console.log(totalcollection);
+
+//task5
+
+let movies=[200,500,800,400,600]
+
+let totalcollections=movies[0];
+
+for(let a=1;a<movies.length;a++){
+     
+         totalcollections=totalcollections+movies[a]
+          
+}
+
+totalcollections=totalcollections/movies.length;
+
+console.log(totalcollections)
+
+
+//task6
+
+hero=["Vijay","Ajith","Suriya","SK"]
+
+let arr=[]
+
+for(a=hero.length-1;a>=0;a--){
+
+
+    arr.push(hero[a]); 
+
+}
+ console.log(arr);
+
+//task7
+
+fruits=["Apple","Mango","Orange","Banana"]
+
+for(let i=0;i<fruits.length;i++){
+
+       if(fruits[i]=='Mango'){
+
+         console.log("fruit found");
+         
+       }
+
+
+      }
+
+//task8
+
+let fruit=["Apple","Mango","Orange","Banana"];
+
+let count=1;
+
+for (let a=0;a<count;a++){
+          
+   count+=1;
+   fruit[a];
+     
+}
+
+console.log(count);
+
+
+
+
+
+
 
 
 </script>
