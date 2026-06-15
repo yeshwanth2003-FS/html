@@ -126,22 +126,45 @@ for (let a=0;a<fruit.length;a++){
 
 let names=["Vijay","Ajith","Sivakarthikeyan","SK"]
 
-largestvalue=0;
+largestvalue=names[0];
 
 for(let a=0;a<names.length;a++){
         
-       
+       if( names[a].length > largestvalue.length){
 
-       if( names[a].length > largestvalue){
-
-                       largestvalue=names[a].length
+                       largestvalue=names[a]
        }
-
-
-
 }
 
 console.log(largestvalue);
+
+//task10
+
+let movie = "LEVEL";
+
+let orginal=movie;
+
+let reverse=movie[i]
+
+for(i=movie.length;0<=i;i--){
+    
+      if(orginal==reverse){
+
+        console.log('Palindrome')
+      }       
+           
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
