@@ -35,22 +35,73 @@ console.log("missing number=",missing_num);
 
 let name="programming"
 
+
+
 for(i=0;i<name.length;i++){
+
+    let count=0
 
     for(j=0;j<name.length;j++){
            
-      
-          if(name[i]==name[j] && name[i]!=name[j]){
+              if(name[i]==name[j]){
+                           
+                       count++
+              }
 
-            console.log(name[j]);
-            
-
+                
           }  
 
           
         
     }
+console.log("count");
+
+//task3
+
+let names = "javascript";
+
+for (let i = 0; i < names.length; i++) {
+
+    let count = 0;
+
+    for (let j = 0; j < names.length; j++) {
+
+        if (names[i] == names[j]) {
+            count++;
+        }
+
+    }
+
+    if (count > 1) {
+        console.log(names[i]);
+        break;
+    }
+
 }
+//task4
+
+let arr = [1,0,2,0,3,4,0];
+
+let result = [];
+
+for (let i = 0; i < arr.length; i++) {
+
+    if (arr[i] != 0) {
+        result.push(arr[i]);
+    }
+
+}
+
+for (let i = 0; i < arr.length; i++) {
+
+    if (arr[i] == 0) {
+        result.push(arr[i]);
+    }
+
+}
+
+console.log(result);
+
 
      
 
