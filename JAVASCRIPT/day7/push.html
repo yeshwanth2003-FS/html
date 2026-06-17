@@ -60,7 +60,65 @@ let mobiles=[
    }
 ]
 
-console.log(mobiles[0.]);
+for (let i=0;i<mobiles.length;i++){
+     
+     console.log(mobiles[i].brand,"-",mobiles[i].price);
+     
+
+}
+
+
+//task6
+
+//Total Collection Highest Collection Movie Name with Highest Collection
+
+let movies=[
+   {
+      movie:"GOAT",
+      collection:800
+   },
+
+   {
+      movie:"Leo",
+      collection:600
+   },
+
+   {
+      movie:"Master",
+      collection:500
+   }
+]
+
+let    highest=0
+let    names=""
+
+for(let i=0;i<movies.length;i++){
+   
+   if(movies[i].collection>highest){
+                        
+                   highest=movies[i].collection
+                   names=movies[i].movie 
+
+                  }     
+
+
+}
+
+let sum=0
+
+for(let a=0;a<movies.length;a++){
+
+
+         sum+=movies[a].collection
+
+
+}
+
+console.log("total collection=",sum);
+
+
+console.log("highest movie collection=",names,"-",highest);
+
 
 
 
