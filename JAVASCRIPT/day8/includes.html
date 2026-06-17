@@ -1,5 +1,6 @@
 <script>
 
+//class task
 
 let arr=[1,2,3,4,5,[1,2,3,4,5],6,7,8,9,10];
 
@@ -20,6 +21,121 @@ arr.push(100);
 arr=arr.slice(0,6)
 
 console.log(arr);
+
+//task1
+
+arr=["HTML","CSS","JavaScript"]
+
+arr.push( "React", "Node.js")
+
+console.log(arr);
+
+
+//task2
+
+let frontend=["HTML","CSS","JavaScript","React"]
+
+console.log(frontend.pop());
+
+console.log(frontend);
+
+//task3
+
+let fruits=["Apple","Mango","Orange","Banana"]
+
+console.log(fruits.shift());
+
+console.log(fruits);
+
+//task4
+
+let heros=["Ajith","Suriya","SK"]
+
+console.log(heros.unshift("Vijay", "Dhanush" ));
+
+console.log(heros);
+
+//task5
+
+let fd=["HTML","CSS","Bootstrap","React"]
+
+fd.splice(2,1,"JavaScript")
+
+console.log(fd);
+
+//task6
+
+let ui=["HTML","CSS","JavaScript","React","Node"]
+
+console.log(ui.slice(2,4));
+
+//task7
+
+let student = {
+
+   name:"Sudhan",
+
+   course:"MERN",
+
+   city:"Chennai",
+
+   age:25
+
+};
+
+for(let key in student ){
+       
+        console.log(key,"=",student[key]);
+        
+
+}
+
+//task8
+
+ let movies=[
+   {
+      name:"Vijay",
+      movie:"GOAT"
+   },
+
+   {
+      name:"Ajith",
+      movie:"Vidaamuyarchi"
+   },
+
+   {
+      name:"Suriya",
+      movie:"Kanguva"
+   }
+]
+
+for(let i=0;i<movies.length;i++){
+
+      console.log(movies[i].name,"-",movies[i].movie);
+      
+
+}
+//task9
+
+hero=["Vijay","Ajith","Suriya","SK"]
+
+
+
+console.log(hero.join("|"));
+
+//task10
+
+let courses=["HTML","CSS","JavaScript","React"]
+
+if(courses.includes("React")){
+
+    console.log("found");
+    
+}else{
+    console.log("not found");
+    
+}
+
 
 
 
