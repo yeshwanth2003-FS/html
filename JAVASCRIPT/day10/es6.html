@@ -1,0 +1,105 @@
+<script>
+    
+// Task 1 - let
+
+let name = "Yeshwanth";
+
+name = "Vijay";
+
+console.log(name);
+
+
+// Task 2 - let Scope
+
+if (true) {
+
+    let city = "Chennai";
+
+}
+
+console.log(city);
+
+
+// Task 3 - const
+
+const course = "MERN";
+
+course = "Python";
+
+console.log(course);
+
+
+// Task 4 - Arrow Function
+
+const greet = () => {
+
+    console.log("Welcome To JavaScript");
+
+}
+
+greet();
+
+
+// Task 5 - Arrow Function With Parameters
+
+const showHero = (heroName) => {
+
+    console.log("Hero Name : " + heroName);
+
+}
+
+showHero("Vijay");
+
+
+// Task 6 - Arrow Function Addition
+
+const add = (a, b) => {
+
+    console.log(a + b);
+
+}
+
+add(10, 20);
+
+
+// Task 7 - Template Literals
+
+let hero = "Vijay";
+
+console.log(`My Favourite Hero is ${hero}`);
+
+
+// Task 8 - Template Literals Multiple Values
+
+let studentName = "Sudhan";
+let studentCourse = "MERN";
+let studentCity = "Chennai";
+
+console.log(`My name is ${studentName}, I am studying ${studentCourse} and I am from ${studentCity}`);
+
+
+// Task 9 - Array Destructuring
+
+let heroes = ["Vijay", "Ajith", "Suriya"];
+
+let [hero1, hero2] = heroes;
+
+console.log(hero1);
+console.log(hero2);
+
+
+// Task 10 - Object Destructuring
+
+let student = {
+    name: "Sudhan",
+    course: "MERN",
+    city: "Chennai"
+};
+
+let { name: studentname, course: studentcourse } = student;
+
+console.log(studentname);
+console.log(studentcourse);
+
+
+</script>
