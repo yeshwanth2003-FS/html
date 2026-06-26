@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <div class="flex flex-col text-white p-5 justify-center item-center h-screen gap-4 ml-[500px]" >
+        <div >
+            <input type="text" id="box1" class=" bg-gray-500 h-10 w-[100px] p-3 ml-[100px] rounded-lg" placeholder="enter your text">
+             
+        </div>
+        <div onclick="clickhide()" style="display: flex;" class="bg-gray-800 h-[300px] w-[300px] flex justify-center item-center">
+            <p>box</p>
+        </div>
+    </div>
+
+    <script>
+          
+           const clickhide =()=>{
+
+            const displays = document.getElementById("box1")
+
+            if(displays==="show"){
+                       
+                  displays.style.display="none"
+
+            }else{
+                 displays.style.display="flex"
+            }
+
+           }
+
+    </script>
+    
+</body>
+</html>
