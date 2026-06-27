@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title" onclick="fun()">
+   Welcome 
+</h1>
+
+<p id="course" onclick="cou()">
+   React
+</p>
+
+<input
+   id="username"
+   type="text"
+  
+/>
+
+<br>
+
+<img
+   id="hero"
+   src="../../CSS/assests/photos/dec/1_icon-removebg-preview.png"
+   onclick="changeimage()"
+   
+/>
+<br>
+<a
+   id="website"
+   href="#"
+   onclick="changeurl()"
+>
+   Visit
+</a>
+
+</body>
+</html>
+
+
+<script>
+    const welcome=document.getElementById("title")
+   
+    
+    const fun=()=>{
+
+        welcome.innerText="Welcome to JavaScript DOM"   
+        
+    }
+   
+    const course=document.querySelector("#course")
+  
+    const cou=()=>{
+           
+        course.innerHTML="mern stack"
+
+     }
+
+    let user=document.getElementById("username")
+         
+        user.value="sudhan"
+
+     const image=document.querySelector("#hero")
+     
+     const changeimage=()=>{
+        image.src = "../../CSS/assests/photos/dec/3_icon-removebg-preview.png"
+     }
+     const url=document.querySelector("#website")
+
+      const changeurl=()=>{
+
+        url.href="https://google.com"
+      }
+     
+
+
+     
+    
+
+
+</script>
