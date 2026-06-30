@@ -38,11 +38,22 @@
         <img src="../../CSS/assests/photos/profile/emptyprofile.avif" alt="profile">
         <h2 id="names"></h2>
         <p id="roles"></p>
-    </div>
-    </div>
+    </div></div>
+      <br>
+    <br>
     <hr>
     <br>
-    <br>
+    <input id="inputvalue" type="text" placeholder="enter hero name "><br><br>
+    <button onclick="heroname()">click here</button>
+    <p id="dis"></p>
+    <hr>
+    <input type="number" placeholder="enter your number" id="lucky"><br><br>
+    <button onclick="luckynumber()">click here</button>
+    <p id="displaylucky"></p>
+    <br><br>
+    
+
+  
 
 
     <script>
@@ -136,6 +147,51 @@
             
         }
 
+
+   }
+
+
+   const heroname=()=>{
+     
+    let inputvalues = document.getElementById("inputvalue").value
+
+    let arr=["Vijay","Ajith","Suriya","SK","Dhanush"]
+    
+    let disp=document.getElementById("dis")
+    
+   
+
+           if (arr.includes(inputvalues)){
+                   
+                disp.innerText="Found"
+                    
+
+           }else{
+
+             disp.innerText="not Found"
+
+           }
+
+
+   }
+   
+   const luckynumber=()=>{
+
+        
+         const lucky=Number(document.getElementById("lucky").value)
+
+         const displaylucky=document.getElementById("displaylucky")
+
+         let array=[7,14,21,28]
+
+         if (array.includes(lucky)){
+
+            displaylucky.innerText="Lucky Number"
+           
+         }else{
+
+               displaylucky.innerText="Normal Number"
+         }
 
    }
 
