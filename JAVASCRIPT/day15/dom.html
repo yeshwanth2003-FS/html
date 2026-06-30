@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:white;color: black;" id="color" >
+
+    <textarea id="chara"></textarea><br><br>
+    <button onclick="display()" >click here</button>
+    <p id="display"></p>
+
+    <hr>
+
+    <input id="agevalue"  type="number" placeholder="enter your age"><br><br>
+    <button onclick="agecheckers()">submit</button>
+     <p id="displays"></p>
+
+     <hr>
+
+     <button onclick="nightmode()">click to switch node</button><br><br>
+
+     <hr>
+
+     <input type="number" placeholder="how may ticket needed" id="amount"><br><br>
+     <button onclick="totalamount()">click here</button>
+     <p id="tamount"></p>
+
+     <hr>   
+    
+
+    <script>
+      
+        const display=()=>{ 
+
+        const uservalue=document.getElementById("chara").value  
+              
+        let dis=document.getElementById("display")
+
+                dis.innerText=`TOTAL CHARACTER=${uservalue.length}`         
+    
+    }   
+//0 - 12   → Child
+//13 - 19  → Teenager
+//20 - 59  → Adult
+//60+      → Senior Citizen
+
+    
+    
+    const agecheckers=()=>{
+
+  
+        const age=document.getElementById("agevalue").value
+       
+        let displays=document.getElementById("displays")
+
+        if(age<=12){
+
+            displays.innerText="Child"
+
+        }else if(age<=19){
+                  
+              displays.innerText="Teenager"
+
+        }else if(age<=59){
+              
+            displays.innerText="Adult"
+
+        }else if(age>=60){
+
+             displays.innerText="SeniorCitizen"
+        }
+               }
+
+
+    const nightmode=()=>{
+
+         const night=document.getElementById("color")
+
+         if(night.style.backgroundColor=="white"){
+ 
+            night.style.backgroundColor="black"
+
+         }else{
+
+            night.style.backgroundColor="white"
+         }
+
+    }
+
+    const totalamount=()=>{
+
+        let amount=document.getElementById("amount").value
+        
+        let tamount=document.getElementById("tamount")
+        
+        let total=amount*150
+       
+         tamount.innerText=`Per ticket cost rupes 150 :Totalamount=${total}`
+
+ 
+       
+         
+    }
+
+
+
+
+    </script>
+    
+</body>
+</html>
