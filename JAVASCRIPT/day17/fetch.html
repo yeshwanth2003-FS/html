@@ -6,51 +6,60 @@
     <title>Document</title>
 </head>
 <body>
-      
-    <table>
-           
-         <thead>
-            
-               <th>s.no</th>
-               <th>name</th>
-               <th>age</th>
-               <th></th> 
-             
 
+    <table border="1" cellpadding="10">
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Category</th>
+            </tr>
         </thead>
-        <tbody>
+
+        <tbody id="table">
 
         </tbody>
-        </table>
 
+    </table>
+
+    <br><br>
+
+    <button onclick="takedata()">Get Data</button>
 <script>
- 
-    const takedata=async()=>{
- 
-          const datas=await fetch("https://dummyjson.com/products")
-            
-          const res=await datas.json()
 
-          let result=res
+        const takedata = async () => {
 
-           console.log(result);
-           
+            const datas = await fetch("https://dummyjson.com/products");
+
+            const res = await datas.json();
+
+            let result = res.products;
+
+            let tablevalue = document.getElementById("table");
+
+            tablevalue.innerHTML = "";
+
+            result.forEach((product) => {
+
+                tablevalue.innerHTML += `
+                    <tr>
+                        <td>${product.id}</td>
+                        <td>${product.title}</td>
+                        <td>${product.category}</td>
+                    </tr>
+                `;
+
+            });
+
+        }
+
+    </script>
 
 
-
-    }
-
-  takedata()          
+          
 
 
-if (true) {
-
-    var actor1 = "Ajith";
-
-    let actor2 = "Vijay";
-
-}
-</script>
 
 
 

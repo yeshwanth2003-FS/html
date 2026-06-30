@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards</title>
+     <style>
+        #cards{
+           
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding-top: 100px;
+        }
+
+        .card{
+             background-color: maroon;
+            color: white;
+            width: 250px;
+            border: 1px solid gray;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+      
+
+        .card img{
+            width: 100%;
+            height: 180px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+     <button onclick="getProducts()">Get Products</button>
+
+    <div id="cards"></div>
+
+<script>
+  const getProducts = async () => {
+
+    const datas = await fetch("https://dummyjson.com/products");
+
+    const res = await datas.json();
+
+    const result = res.products;
+
+    let cards = document.getElementById("cards");
+
+    cards.innerHTML = "";
+
+    result.forEach((product) => {
+
+        cards.innerHTML += `
+            <div class="card">
+
+                <img src="${product.thumbnail}">
+
+                <h2>${product.title}</h2>
+
+                <h3>₹ ${product.price}</h3>
+
+                <p>${product.category}</p>
+
+            </div>
+        `;
+
+    });
+
+}
+
+</script>
+
+
+</body>
+</html>
