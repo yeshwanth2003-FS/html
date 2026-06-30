@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color:white;color: black;" id="color" >
 
@@ -19,7 +20,7 @@
 
      <hr>
 
-     <button onclick="nightmode()">click to switch node</button><br><br>
+     <button onclick="nightmode()">click to switch mode</button><br><br>
 
      <hr>
 
@@ -27,8 +28,22 @@
      <button onclick="totalamount()">click here</button>
      <p id="tamount"></p>
 
-     <hr>   
-    
+     <hr>  
+     
+     <input type="text" placeholder="enter your name" id="userName" ><br><br>
+     <input type="text" placeholder="enter your role" id="userRole"><br><br>
+     <button onclick="idgenerate()">click to generate id</button>
+    <div class="parent" >
+    <div style="display: none;" id="style" class="child">
+        <img src="../../CSS/assests/photos/profile/emptyprofile.avif" alt="profile">
+        <h2 id="names"></h2>
+        <p id="roles"></p>
+    </div>
+    </div>
+    <hr>
+    <br>
+    <br>
+
 
     <script>
       
@@ -103,6 +118,26 @@
        
          
     }
+
+   const idgenerate=()=>{
+
+         let username=document.getElementById("userName").value
+         let userole=document.getElementById("userRole").value
+         let displayname=document.getElementById("names")
+         let displayroles=document.getElementById("roles")
+         let hidden=document.getElementById("style")
+        
+        displayname.innerText=username;
+        displayroles.innerText=userole 
+
+        if(hidden.style.display=="none"){
+            
+            hidden.style.display="block"
+            
+        }
+
+
+   }
 
 
 

@@ -1,20 +1,6 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-html{
-    scroll-behavior: smooth;
-
-}
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
 .parent{
-    background-color:  #0F172A;
-    height: 100vh;
+   
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
